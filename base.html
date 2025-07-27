@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TarkaVeda</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/animations.js') }}" defer></script>
+</head>
+<body>
+    <header>
+        <h1>TarkaVeda</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/login">Login</a>
+            <a href="/dashboard">Dashboard</a>
+            <a href="/samhita">Samhita Corner</a>
+            <a href="/contact">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>© Sumit Jha | Follow us: 
+            <a href="https://twitter.com/YourHandle" target="_blank">Twitter</a>, 
+            <a href="https://instagram.com/YourHandle" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>

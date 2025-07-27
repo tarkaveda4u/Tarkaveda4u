@@ -1,16 +1,21 @@
-## Hi there 👋
 
-<!--
-**tarkaveda4u/Tarkaveda4u** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# TarkaVeda
 
-Here are some ideas to get you started:
+**TarkaVeda** is a web application focused on Ayurvedic fact-checking and providing authentic knowledge based on Samhitas.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Features
+
+- Admin & User Login
+- Samhita Corner with traditional texts
+- Ayurveda Fact Check
+- Contact form and social media integration
+
+## Tech Stack
+
+- Python (Flask)
+- HTML, CSS, JS
+- Responsive UI with animations
+
+## License
+
+© Sumit Jha
